@@ -5,53 +5,51 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pin board</title>
 <style>
-body { margin: 0; padding: 12px; background: #fff; color: #000; font-family: Georgia, serif; font-size: 22px; line-height: 1.4; }
-h1 { font-size: 34px; margin: 0 0 4px 0; }
-h2 { font-size: 26px; margin: 28px 0 8px 0; padding-bottom: 4px; border-bottom: 3px solid #000; }
-h3 { font-size: 23px; margin: 18px 0 4px 0; }
-p { margin: 4px 0 8px 0; }
-.date { font-size: 18px; margin: 0 0 8px 0; }
-.note { padding: 6px 0 14px 0; border-bottom: 1px solid #888; }
-a { color: #000; text-decoration: underline; font-weight: bold; }
-.foot { margin-top: 24px; font-size: 18px; }
+body { margin: 0; padding: 10px 12px 24px 12px; background: #fff; color: #000;
+  font-family: "Courier New", Courier, monospace; font-size: 19px; line-height: 1.35; }
+pre { font-family: "Courier New", Courier, monospace; margin: 0; }
+.banner { font-size: 23px; line-height: 1.1; font-weight: bold; margin: 4px 0 10px 0; }
+.status { background: #000; color: #fff; padding: 6px 8px; font-weight: bold; font-size: 17px; }
+.rule { white-space: nowrap; overflow: hidden; margin: 0; }
+.head { margin: 22px 0 0 0; font-weight: bold; font-size: 21px; }
+.heavy { font-weight: bold; }
+.light { color: #555; }
+table.item { width: 100%; border-collapse: collapse; margin: 12px 0 2px 0; }
+td.box { width: 3.4em; vertical-align: top; font-weight: bold; white-space: nowrap; }
+td.body { vertical-align: top; }
+.num { color: #555; font-size: 16px; }
+.title { font-weight: bold; }
+.desc { font-size: 16px; line-height: 1.35; margin: 4px 0 0 0; }
+.link { margin: 6px 0 0 0; font-size: 17px; }
+a { color: #000; font-weight: bold; text-decoration: underline; }
+.foot { margin: 28px 0 0 0; font-size: 17px; line-height: 1.15; }
 </style>
 </head>
 <body>
-<h1>Pin board</h1>
-<p class="date">Updated Mon 12 Oct 2026 &middot; 6 things on the board</p>
-
-<h2>Top priority</h2>
-<div class="note">
-<h3>Look at this Instagram post</h3>
-<p><a href="https://www.instagram.com/p/DeJdvW3omrJ/?rpxt=YXdrdHI5ZXNoZm56">Instagram post</a></p>
-</div>
-
-<h2>To do</h2>
-<div class="note">
-<h3>Order B12 supplements</h3>
-<p>Add this to the notes: order the B12 supplements.</p>
-</div>
-<div class="note">
-<h3>Check out Victoria's Boutique Caf&eacute;</h3>
-<p><a href="https://link.district.in/DSTRKT/fy6psr7m">Victoria's Boutique Caf&eacute; on District</a></p>
-</div>
-<div class="note">
-<h3>Look into jailbreaking your old Kindle</h3>
-<p>Find out how to jailbreak the old Kindle.</p>
-</div>
-<div class="note">
-<h3>Check out Gill Organics on Instagram</h3>
-<p>From your screenshot: Gill Organics, Cloud Farms (@gillorganics). Adopt an organic farm for your family. Mission: organic food revolution in Punjab. Managed by @mantajsidhu_. There is a waitlist on their website. You already follow them.</p>
-<p><a href="https://www.instagram.com/gillorganics/">Gill Organics on Instagram</a></p>
-<p><a href="https://www.gillorganics.com">gillorganics.com</a></p>
-</div>
-<div class="note">
-<h3>Check out Slam Out Loud on Instagram</h3>
-<p>From your screenshot: Slam Out Loud (@slamoutloud), a verified nonprofit. Their line is "Every child will have a voice that enables them to change lives." 17K followers, 2,272 posts, and you already follow them. Their latest posts include a hiring call for four roles and a campaign about art and periods in India.</p>
-<p><a href="https://www.instagram.com/slamoutloud/">Slam Out Loud on Instagram</a></p>
-<p><a href="https://linktr.ee/slamoutloud">linktr.ee/slamoutloud</a></p>
-</div>
-
-<p class="foot">One thing at a time.</p>
+<pre class="banner"> ___ _        ___                   _
+| _ (_)_ _   | _ ) ___  __ _ _ _ __| |
+|  _/ | &#x27; \  | _ \/ _ \/ _` | &#x27;_/ _` |
+|_| |_|_||_| |___/\___/\__,_|_| \__,_|</pre>
+<div class="status">&gt; MON 12 OCT &nbsp;|&nbsp; 6 pinned &nbsp;|&nbsp; 1 urgent</div>
+<p class="head">## TOP PRIORITY (1)</p>
+<p class="rule heavy">========================================================================================================================</p>
+<table class="item"><tr><td class="box">[!]</td><td class="body"><span class="num">01</span> <span class="title">Look at this Instagram post</span><p class="link">-&gt; <a href="https://www.instagram.com/p/DeJdvW3omrJ/?rpxt=YXdrdHI5ZXNoZm56">Instagram post</a></p></td></tr></table>
+<p class="head">## TO DO (5)</p>
+<p class="rule heavy">========================================================================================================================</p>
+<table class="item"><tr><td class="box">[ ]</td><td class="body"><span class="num">02</span> <span class="title">Order B12 supplements</span><p class="desc">Add this to the notes: order the B12 supplements.</p></td></tr></table>
+<p class="rule light">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+<table class="item"><tr><td class="box">[ ]</td><td class="body"><span class="num">03</span> <span class="title">Check out Victoria&#x27;s Boutique Café</span><p class="link">-&gt; <a href="https://link.district.in/DSTRKT/fy6psr7m">Victoria&#x27;s Boutique Café on District</a></p></td></tr></table>
+<p class="rule light">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+<table class="item"><tr><td class="box">[ ]</td><td class="body"><span class="num">04</span> <span class="title">Look into jailbreaking your old Kindle</span><p class="desc">Find out how to jailbreak the old Kindle.</p></td></tr></table>
+<p class="rule light">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+<table class="item"><tr><td class="box">[ ]</td><td class="body"><span class="num">05</span> <span class="title">Check out Gill Organics on Instagram</span><p class="desc">From your screenshot: Gill Organics, Cloud Farms (@gillorganics). Adopt an organic farm for your family. Mission: organic food revolution in Punjab. Managed by @mantajsidhu_. There is a waitlist on their website. You already follow them.</p><p class="link">-&gt; <a href="https://www.instagram.com/gillorganics/">Gill Organics on Instagram</a></p><p class="link">-&gt; <a href="https://www.gillorganics.com">gillorganics.com</a></p></td></tr></table>
+<p class="rule light">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+<table class="item"><tr><td class="box">[ ]</td><td class="body"><span class="num">06</span> <span class="title">Check out Slam Out Loud on Instagram</span><p class="desc">From your screenshot: Slam Out Loud (@slamoutloud), a verified nonprofit. Their line is &quot;Every child will have a voice that enables them to change lives.&quot; 17K followers, 2,272 posts, and you already follow them. Their latest posts include a hiring call for four roles and a campaign about art and periods in India.</p><p class="link">-&gt; <a href="https://www.instagram.com/slamoutloud/">Slam Out Loud on Instagram</a></p><p class="link">-&gt; <a href="https://linktr.ee/slamoutloud">linktr.ee/slamoutloud</a></p></td></tr></table>
+<p class="rule ">------------------------------------------------------------------------------------------------------------------------</p>
+<pre class="foot">   .-.
+  ( o )   one thing
+   `|&#x27;    at a time.
+    |
+    &#x27;</pre>
 </body>
 </html>
